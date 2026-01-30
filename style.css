@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1f2933;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+section {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  border-bottom: 2px solid #1f2933;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #e5e7eb;
+  margin-top: 40px;
+}
+
+/* DARK MODE */
+.dark-mode {
+  background-color: #111827;
+  color: #e5e7eb;
+}
+
+.dark-mode header {
+  background-color: #020617;
+}
+
+.dark-mode footer {
+  background-color: #020617;
+}
