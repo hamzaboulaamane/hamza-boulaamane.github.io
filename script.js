@@ -1,4 +1,14 @@
-// Minimal JS – placeholder for future interactions
-document.querySelector(".btn").addEventListener("click", () => {
-  alert("Link your CV here!");
+// Smooth fade-in animations when scrolling
+const sections = document.querySelectorAll("section");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add("show");
+    }
+  });
+}, { threshold: 0.1 });
+
+sections.forEach(section => {
+  observer.observe(section);
 });
