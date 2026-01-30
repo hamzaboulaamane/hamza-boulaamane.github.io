@@ -1,2 +1,4 @@
-// Automatic Year in Footer
-document.getElementById('year').textContent = new Date().getFullYear();
+// Minimal JS – placeholder for future interactions
+document.querySelector(".btn").addEventListener("click", () => {
+  alert("Link your CV here!");
+});

@@ -1,88 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Hamza Boulaamane | CV</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hamza Boulaamane</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
 
-  <!-- Navigation Menu -->
+<header class="navbar">
+  <div class="logo">Your Name</div>
   <nav>
-    <ul>
-      <li><a href="#cv">CV</a></li>
-      <li><a href="#certificates">Certificates</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#formulaire">Formulaire</a></li>
-    </ul>
+    <a href="#">Bio</a>
+    <a href="#">Publications</a>
+    <a href="#">Conferences</a>
+    <a href="#">Blog</a>
+    <a href="#">CV</a>
+    <a href="#">Projects</a>
   </nav>
+</header>
 
-  <header>
-    <h1>Hamza Boulaamane</h1>
-    <p>Computer Science Student | Cybersecurity Enthusiast</p>
-  </header>
+<section class="hero">
+  <div class="hero-content">
 
-  <section id="cv">
-    <h2>About Me / CV</h2>
-    <p>
-      I am a computer science student with a strong interest in cybersecurity,
-      artificial intelligence, and software engineering. I am motivated, curious,
-      and continuously improving my technical skills.
-    </p>
+    <div class="profile-card">
+      <img src="profile.jpg" alt="Profile"/>
+      <h1>Hamza Boulaamane</h1>
+      <p class="title">etudiant en informatique appliquee</p>
+      <p class="org">faculté des sciences a Rabat</p>
+      <p class="org">université UM5</p>
 
-    <h3>Education</h3>
-    <ul>
-      <li>
-        <strong>Bachelor in Computer Science & Mathematical Sciences</strong><br>
-        Faculty – Morocco<br>
-        2023 – Present
-      </li>
-    </ul>
+      <div class="socials">
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-google-scholar"></i></a>
+      </div>
+    </div>
 
-    <h3>Skills</h3>
-    <ul>
-      <li>Programming: C, Python</li>
-      <li>Web: HTML, CSS, JavaScript</li>
-      <li>Tools: Git, GitHub, VS Code</li>
-      <li>Interests: Cybersecurity, AI, Machine Learning</li>
-    </ul>
-  </section>
+    <div class="about">
+      <h2>a propos de moi</h2>
+      <p>
+       Je m'appelle Hamza, je suis étudiant en informatique, passionné par l'intelligence artificielle et la cybersécurité. Je suis également un jeune entrepreneur, toujours motivé à créer et innover dans le domaine technologique.
 
-  <section id="certificates">
-    <h2>Certificates</h2>
-    <ul>
-      <li>Certificate 1: Cybersecurity Fundamentals</li>
-      <li>Certificate 2: Python Programming</li>
-      <li>Certificate 3: Web Development</li>
-    </ul>
-  </section>
+      </p>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your.email@example.com</p>
-    <p>GitHub: github.com/yourusername</p>
-  </section>
+      <button class="btn">Download CV</button>
 
-  <section id="formulaire">
-    <h2>Formulaire</h2>
-    <form>
-      <label for="name">Name:</label><br>
-      <input type="text" id="name" name="name" required><br><br>
+      <div class="columns">
+        <div>
+          <h3>Interests</h3>
+          <ul>
+            <li>cybersecurity</li>
+            <li>cryptography</li>
+            <li>Artificial Intelligence</li>
+          </ul>
+        </div>
 
-      <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" required><br><br>
+        <div>
+          <h3>Education</h3>
+          <ul>
+            <li>Deug informatique appliquee 2026 </li>
+            <li>Bac scineces physiaue chimie 2024</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-      <label for="message">Message:</label><br>
-      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+  </div>
 
-      <input type="submit" value="Send">
-    </form>
-  </section>
+  <svg class="wave" viewBox="0 0 1440 320">
+    <path fill="#041a3a" fill-opacity="1"
+      d="M0,192L80,176C160,160,320,128,480,117.3C640,107,800,117,960,128C1120,139,1280,149,1360,154.7L1440,160L1440,0L0,0Z">
+    </path>
+  </svg>
+</section>
 
-  <footer>
-    <p>© <span id="year"></span> Hamza Boulaamane</p>
-  </footer>
+<footer style="background-color: #f2f2f2; text-align: center; padding: 20px; margin-top: 40px;">
+  <p>&copy; 2026 Hamza Boulaamane. All rights reserved.</p>
+</footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
