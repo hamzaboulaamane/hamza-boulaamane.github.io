@@ -7,23 +7,30 @@
 </head>
 <body>
 
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#formulaire">Formulaire</a></li>
+    </ul>
+  </nav>
+
   <header>
     <h1>Hamza Boulaamane</h1>
     <p>Computer Science Student | Cybersecurity Enthusiast</p>
-    <button id="darkModeBtn">Dark mode 🌙</button>
   </header>
 
-  <section>
-    <h2>About Me</h2>
+  <section id="cv">
+    <h2>About Me / CV</h2>
     <p>
       I am a computer science student with a strong interest in cybersecurity,
       artificial intelligence, and software engineering. I am motivated, curious,
       and continuously improving my technical skills.
     </p>
-  </section>
 
-  <section>
-    <h2>Education</h2>
+    <h3>Education</h3>
     <ul>
       <li>
         <strong>Bachelor in Computer Science & Mathematical Sciences</strong><br>
@@ -31,10 +38,8 @@
         2023 – Present
       </li>
     </ul>
-  </section>
 
-  <section>
-    <h2>Skills</h2>
+    <h3>Skills</h3>
     <ul>
       <li>Programming: C, Python</li>
       <li>Web: HTML, CSS, JavaScript</li>
@@ -43,10 +48,35 @@
     </ul>
   </section>
 
-  <section>
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+      <li>Certificate 1: Cybersecurity Fundamentals</li>
+      <li>Certificate 2: Python Programming</li>
+      <li>Certificate 3: Web Development</li>
+    </ul>
+  </section>
+
+  <section id="contact">
     <h2>Contact</h2>
     <p>Email: your.email@example.com</p>
     <p>GitHub: github.com/yourusername</p>
+  </section>
+
+  <section id="formulaire">
+    <h2>Formulaire</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <input type="submit" value="Send">
+    </form>
   </section>
 
   <footer>
