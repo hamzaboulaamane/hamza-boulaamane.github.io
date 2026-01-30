@@ -1,14 +1,10 @@
-// Smooth fade-in animations when scrolling
-const sections = document.querySelectorAll("section");
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if(entry.isIntersecting){
-      entry.target.classList.add("show");
-    }
+// ================= Smooth Scroll to Section =================
+document.querySelectorAll('.nav-links a').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const targetID = this.getAttribute('href');
+    document.querySelector(targetID).scrollIntoView({
+      behavior: 'smooth'
+    });
   });
-}, { threshold: 0.1 });
-
-sections.forEach(section => {
-  observer.observe(section);
 });
