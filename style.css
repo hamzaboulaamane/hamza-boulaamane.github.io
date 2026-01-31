@@ -89,7 +89,7 @@ header {
 /* ==================== Hero Section ==================== */
 .hero {
   height: 90vh;
-  background: linear-gradient(135deg, #000000 0%, #8b9099 100%);
+  background: linear-gradient(135deg, #d9d9d9 0%, #7a7a7a 100%);
   color: #fff;
   display: flex;
   justify-content: center;
@@ -219,7 +219,7 @@ h2 {
 }
 
 .certificate:hover {
-  background: #2421c8;
+  background: #9f9fa3;
   color: #fff4f4;
 }
 
@@ -245,7 +245,7 @@ h2 {
   padding: 0.8rem;
   border: none;
   border-radius: 5px;
-  background: #000000;
+  background: #3422d1;
   color: #f7e9e9;
   font-weight: 600;
   cursor: pointer;
