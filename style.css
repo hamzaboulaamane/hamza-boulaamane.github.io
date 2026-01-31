@@ -132,7 +132,7 @@ section {
 h2 {
   font-size: 2.2rem;
   margin-bottom: 2rem;
-  color: #0d0d0d;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -245,7 +245,7 @@ h2 {
   padding: 0.8rem;
   border: none;
   border-radius: 5px;
-  background: #ff6f61;
+  background: #000000;
   color: #fff;
   font-weight: 600;
   cursor: pointer;
