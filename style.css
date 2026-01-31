@@ -140,10 +140,12 @@ h2 {
 /* About Me */
 .about-container {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 2rem;
+  flex-direction: column; 
+  align-items: center;    
+  text-align: center;     
+  gap: 1rem;              
 }
+
 
 .about-text {
   flex: 1;
@@ -227,6 +229,12 @@ h2 {
   background: #9f9fa3;
   color: #fff4f4;
 }
+
+.certificate a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Keeps the text color same as parent */
+}
+
 
 /* Contact Form */
 .contact-form {
