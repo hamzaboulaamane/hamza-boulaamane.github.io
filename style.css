@@ -89,7 +89,7 @@ header {
 /* ==================== Hero Section ==================== */
 .hero {
   height: 90vh;
-  background: linear-gradient(135deg, #7502ef 0%, #2575fc 100%);
+  background: linear-gradient(135deg, #000000 0%, #8b9099 100%);
   color: #fff;
   display: flex;
   justify-content: center;
@@ -211,7 +211,7 @@ h2 {
 }
 
 .certificate {
-  background: #000000;
+  background: #fffefe;
   padding: 2rem;
   border-radius: 10px;
   text-align: center;
@@ -220,7 +220,7 @@ h2 {
 
 .certificate:hover {
   background: #2421c8;
-  color: #000000;
+  color: #fff4f4;
 }
 
 /* Contact Form */
@@ -246,7 +246,7 @@ h2 {
   border: none;
   border-radius: 5px;
   background: #000000;
-  color: #040404;
+  color: #f7e9e9;
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s;
