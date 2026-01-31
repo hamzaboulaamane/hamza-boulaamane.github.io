@@ -151,8 +151,10 @@ h2 {
 }
 
 .about-image img {
-  width: 250px;
-  border-radius: 10px;
+   width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /* Interests */
